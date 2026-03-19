@@ -1,11 +1,47 @@
 import React from 'react';
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-        <li><a href="/">Home</a></li>
-        <li><a href="/apps">Apps</a></li>
-        <li><a href="/installation">Installation</a></li>
-    </>
+        <li>
+            <NavLink
+                to="/"
+                className={({ isActive }) =>
+                    isActive
+                        ? "text-blue-500 font-bold border-b-1 border-blue-500 pb-1"
+                        : "border-b-1 border-transparent pb-1"
+                }
+            >
+                Home
+            </NavLink>
+        </li>
+
+        <li>
+            <NavLink
+                to="/apps"
+                className={({ isActive }) =>
+                    isActive
+                        ? "text-blue-500 font-bold border-b-1 border-blue-500 pb-1"
+                        : "border-b-1 border-transparent pb-1"
+                }
+            >
+                Apps
+            </NavLink>
+        </li>
+
+        <li>
+            <NavLink
+                to="/installation"
+                className={({ isActive }) =>
+                    isActive
+                        ? "text-blue-500 font-bold border-b-1 border-blue-500 pb-1"
+                        : "border-b-1 border-transparent pb-1"
+                }
+            >
+                Installation
+            </NavLink>
+        </li>
+    </>;
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -19,15 +55,27 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a href='/' className="btn btn-ghost text-xl">AppTap</a>
+                <NavLink to="/" className="btn btn-ghost text-xl">
+                    AppTap
+                </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-5">
-                            {links}
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='/contribution' className="btn">Contribute</a>
+                <NavLink
+                    to="/contribution"
+                    className={({ isActive }) =>
+                        `btn text-white ${isActive
+                            ? "btn btn-primary"
+                            : "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-0"
+                        }`
+                    }
+                >
+                    Contribute
+                </NavLink>
             </div>
         </div>
     );
