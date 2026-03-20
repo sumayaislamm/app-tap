@@ -3,375 +3,220 @@
     "id": 1,
     "title": "Photo Editor Pro",
     "companyName": "PixelSoft",
-    "image": "https://i.ibb.co/1.jpg",
+    "image": "https://i.ibb.co/qYZgqwVB/Photo-Editor-Pro.jpg",
     "description": "Powerful photo editing application",
     "size": 45,
     "reviews": 320,
     "ratingAvg": 4.5,
-    "downloads": 1200,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 120 },
-      { "name": "5 star", "count": 145 }
-    ]
+    "downloads": 1200
   },
   {
     "id": 2,
     "title": "Music Player X",
     "companyName": "SoundLab",
-    "image": "https://i.ibb.co/2.jpg",
+    "image": "https://i.ibb.co/d4ZkxSzv/Music-Player-X.jpg",
     "description": "Smooth music player",
     "size": 30,
     "reviews": 210,
     "ratingAvg": 4.2,
-    "downloads": 980,
-    "ratings": [
-      { "name": "1 star", "count": 8 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 35 },
-      { "name": "4 star", "count": 80 },
-      { "name": "5 star", "count": 72 }
-    ]
+    "downloads": 980
   },
   {
     "id": 3,
     "title": "Weather Live",
     "companyName": "SkyTech",
-    "image": "https://i.ibb.co/3.jpg",
+    "image": "https://i.ibb.co/mrT0pvCB/Weather-Live.jpg",
     "description": "Live weather forecast",
     "size": 25,
     "reviews": 400,
     "ratingAvg": 4.6,
-    "downloads": 1500,
-    "ratings": [
-      { "name": "1 star", "count": 6 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 140 },
-      { "name": "5 star", "count": 202 }
-    ]
+    "downloads": 1500
   },
   {
     "id": 4,
     "title": "Todo Master",
     "companyName": "Taskify",
-    "image": "https://i.ibb.co/4.jpg",
+    "image": "https://i.ibb.co/99bBvw2W/Todo-Master.jpg",
     "description": "Task manager",
     "size": 18,
     "reviews": 180,
     "ratingAvg": 4.1,
-    "downloads": 870,
-    "ratings": [
-      { "name": "1 star", "count": 7 },
-      { "name": "2 star", "count": 14 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 70 },
-      { "name": "5 star", "count": 59 }
-    ]
+    "downloads": 870
   },
   {
     "id": 5,
     "title": "Chat Connect",
     "companyName": "LinkUp",
-    "image": "https://i.ibb.co/5.jpg",
+    "image": "https://i.ibb.co/nsYM8vbF/Chat-Connect.jpg",
     "description": "Messaging app",
     "size": 55,
     "reviews": 520,
     "ratingAvg": 4.7,
-    "downloads": 2000,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 308 }
-    ]
+    "downloads": 2000
   },
-
   {
     "id": 6,
     "title": "Fitness Pro",
     "companyName": "HealthCore",
-    "image": "https://i.ibb.co/6.jpg",
+    "image": "https://i.ibb.co/1pfG1r1/Fitness-Pro.jpg",
     "description": "Workout tracker",
     "size": 60,
     "reviews": 140,
     "ratingAvg": 4.0,
-    "downloads": 760,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 25 },
-      { "name": "4 star", "count": 50 },
-      { "name": "5 star", "count": 50 }
-    ]
+    "downloads": 760
   },
-
   {
     "id": 7,
     "title": "Recipe Book",
     "companyName": "CookSoft",
-    "image": "https://i.ibb.co/7.jpg",
+    "image": "https://i.ibb.co/FLk481DJ/Recipe-Book.jpg",
     "description": "Cooking recipes",
     "size": 22,
     "reviews": 120,
     "ratingAvg": 4.3,
-    "downloads": 540,
-    "ratings": [
-      { "name": "1 star", "count": 3 },
-      { "name": "2 star", "count": 7 },
-      { "name": "3 star", "count": 20 },
-      { "name": "4 star", "count": 40 },
-      { "name": "5 star", "count": 50 }
-    ]
+    "downloads": 540
   },
-
   {
     "id": 8,
     "title": "Note Keeper",
     "companyName": "WriteTech",
-    "image": "https://i.ibb.co/8.jpg",
+    "image": "https://i.ibb.co/wZg7tJNL/Note-Keeper.jpg",
     "description": "Note taking app",
     "size": 12,
     "reviews": 160,
     "ratingAvg": 4.2,
-    "downloads": 690,
-    "ratings": [
-      { "name": "1 star", "count": 6 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 60 },
-      { "name": "5 star", "count": 54 }
-    ]
+    "downloads": 690
   },
-
   {
     "id": 9,
     "title": "Movie Finder",
     "companyName": "CinemaTech",
-    "image": "https://i.ibb.co/9.jpg",
+    "image": "https://i.ibb.co/7JnBzgVK/Movie-Finder.jpg",
     "description": "Find movies",
     "size": 28,
     "reviews": 300,
     "ratingAvg": 4.4,
-    "downloads": 1110,
-    "ratings": [
-      { "name": "1 star", "count": 8 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 45 },
-      { "name": "4 star", "count": 110 },
-      { "name": "5 star", "count": 125 }
-    ]
+    "downloads": 1110
   },
-
   {
     "id": 10,
     "title": "Language Learn",
     "companyName": "EduCore",
-    "image": "https://i.ibb.co/10.jpg",
+    "image": "https://i.ibb.co/jvQkZ2TS/Language-Learn.jpg",
     "description": "Learn languages",
     "size": 35,
     "reviews": 350,
     "ratingAvg": 4.6,
-    "downloads": 1340,
-    "ratings": [
-      { "name": "1 star", "count": 7 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 130 },
-      { "name": "5 star", "count": 163 }
-    ]
+    "downloads": 1340
   },
-
   {
     "id": 11,
     "title": "Map Navigator",
     "companyName": "GeoSoft",
-    "image": "https://i.ibb.co/11.jpg",
+    "image": "https://i.ibb.co/YK7Bmcm/Map-Navigator.jpg",
     "description": "Navigation app",
     "size": 70,
     "reviews": 410,
     "ratingAvg": 4.5,
-    "downloads": 1750,
-    "ratings": [
-      { "name": "1 star", "count": 9 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 50 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 189 }
-    ]
+    "downloads": 1750
   },
-
   {
     "id": 12,
     "title": "News Today",
     "companyName": "DailyTech",
-    "image": "https://i.ibb.co/12.jpg",
+    "image": "https://i.ibb.co/dws4kv56/News-Today.jpg",
     "description": "News app",
     "size": 20,
     "reviews": 190,
     "ratingAvg": 4.1,
-    "downloads": 920,
-    "ratings": [
-      { "name": "1 star", "count": 6 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 35 },
-      { "name": "4 star", "count": 70 },
-      { "name": "5 star", "count": 67 }
-    ]
+    "downloads": 920
   },
-
   {
     "id": 13,
     "title": "File Manager",
     "companyName": "CoreSoft",
-    "image": "https://i.ibb.co/13.jpg",
+    "image": "https://i.ibb.co/wZg7tJNL/File-Manager.jpg",
     "description": "File manager",
     "size": 15,
     "reviews": 280,
     "ratingAvg": 4.4,
-    "downloads": 1450,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 40 },
-      { "name": "4 star", "count": 100 },
-      { "name": "5 star", "count": 125 }
-    ]
+    "downloads": 1450
   },
-
   {
     "id": 14,
     "title": "QR Scanner",
     "companyName": "ScanTech",
-    "image": "https://i.ibb.co/14.jpg",
+    "image": "https://i.ibb.co/jvQkZ2TS/QR-Scanner.jpg",
     "description": "QR scanner",
     "size": 10,
     "reviews": 130,
     "ratingAvg": 4.0,
-    "downloads": 600,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 10 },
-      { "name": "3 star", "count": 20 },
-      { "name": "4 star", "count": 50 },
-      { "name": "5 star", "count": 45 }
-    ]
+    "downloads": 600
   },
-
   {
     "id": 15,
     "title": "Video Player HD",
     "companyName": "MediaSoft",
-    "image": "https://i.ibb.co/15.jpg",
+    "image": "https://i.ibb.co/mrT0pvCB/Video-Player-HD.jpg",
     "description": "Video player",
     "size": 65,
     "reviews": 600,
     "ratingAvg": 4.7,
-    "downloads": 2100,
-    "ratings": [
-      { "name": "1 star", "count": 10 },
-      { "name": "2 star", "count": 12 },
-      { "name": "3 star", "count": 50 },
-      { "name": "4 star", "count": 200 },
-      { "name": "5 star", "count": 328 }
-    ]
+    "downloads": 2100
   },
-
   {
     "id": 16,
     "title": "Calculator Plus",
     "companyName": "MathTech",
-    "image": "https://i.ibb.co/16.jpg",
+    "image": "https://i.ibb.co/1pfG1r1/Calculator-Plus.jpg",
     "description": "Calculator",
     "size": 8,
     "reviews": 100,
     "ratingAvg": 4.2,
-    "downloads": 500,
-    "ratings": [
-      { "name": "1 star", "count": 3 },
-      { "name": "2 star", "count": 5 },
-      { "name": "3 star", "count": 20 },
-      { "name": "4 star", "count": 35 },
-      { "name": "5 star", "count": 37 }
-    ]
+    "downloads": 500
   },
-
   {
     "id": 17,
     "title": "Wallpaper Hub",
     "companyName": "WallTech",
-    "image": "https://i.ibb.co/17.jpg",
+    "image": "https://i.ibb.co/FLk481DJ/Wallpaper-Hub.jpg",
     "description": "Wallpapers",
     "size": 18,
     "reviews": 170,
     "ratingAvg": 4.3,
-    "downloads": 890,
-    "ratings": [
-      { "name": "1 star", "count": 4 },
-      { "name": "2 star", "count": 8 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 60 },
-      { "name": "5 star", "count": 68 }
-    ]
+    "downloads": 890
   },
-
   {
     "id": 18,
     "title": "Game Store",
     "companyName": "PlaySoft",
-    "image": "https://i.ibb.co/18.jpg",
+    "image": "https://i.ibb.co/99bBvw2W/Game-Store.jpg",
     "description": "Game download",
     "size": 80,
     "reviews": 450,
     "ratingAvg": 4.6,
-    "downloads": 1600,
-    "ratings": [
-      { "name": "1 star", "count": 9 },
-      { "name": "2 star", "count": 11 },
-      { "name": "3 star", "count": 45 },
-      { "name": "4 star", "count": 150 },
-      { "name": "5 star", "count": 235 }
-    ]
+    "downloads": 1600
   },
-
   {
     "id": 19,
     "title": "Travel Guide",
     "companyName": "TripSoft",
-    "image": "https://i.ibb.co/19.jpg",
+    "image": "https://i.ibb.co/nsYM8vbF/Travel-Guide.jpg",
     "description": "Travel app",
     "size": 40,
     "reviews": 150,
     "ratingAvg": 4.1,
-    "downloads": 720,
-    "ratings": [
-      { "name": "1 star", "count": 5 },
-      { "name": "2 star", "count": 9 },
-      { "name": "3 star", "count": 25 },
-      { "name": "4 star", "count": 55 },
-      { "name": "5 star", "count": 56 }
-    ]
+    "downloads": 720
   },
-
   {
     "id": 20,
     "title": "Book Reader",
     "companyName": "ReadSoft",
-    "image": "https://i.ibb.co/20.jpg",
+    "image": "https://i.ibb.co/qYZgqwVB/Book-Reader.jpg",
     "description": "Read books",
     "size": 26,
     "reviews": 175,
     "ratingAvg": 4.3,
-    "downloads": 810,
-    "ratings": [
-      { "name": "1 star", "count": 4 },
-      { "name": "2 star", "count": 8 },
-      { "name": "3 star", "count": 30 },
-      { "name": "4 star", "count": 60 },
-      { "name": "5 star", "count": 73 }
-    ]
+    "downloads": 810
   }
 ]

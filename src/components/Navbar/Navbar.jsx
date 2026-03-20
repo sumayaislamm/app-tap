@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router';
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
     const links = <>
@@ -55,8 +56,8 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <NavLink to="/" className="btn btn-ghost text-xl">
-                    AppTap
+                <NavLink to="/" className="text-xl">
+                   <img className="h-17 w-20 "  src="/public/apptapp.png" alt="" />
                 </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -66,14 +67,11 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <NavLink
-                    to="/contribution"
-                    className={({ isActive }) =>
-                        `btn text-white ${isActive
-                            ? "btn btn-primary"
-                            : "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-0"
-                        }`
-                    }
+                    to="https://github.com/sumayaislamm"
+                    className="btn btn-primary text-white"
+                    target="_blank"
                 >
+                    <FaGithub size={18} />
                     Contribute
                 </NavLink>
             </div>
