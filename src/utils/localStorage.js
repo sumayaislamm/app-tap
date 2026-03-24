@@ -1,4 +1,3 @@
-
 export const getInstalled = () => {
   const data = localStorage.getItem("installed");
   return data ? JSON.parse(data) : [];

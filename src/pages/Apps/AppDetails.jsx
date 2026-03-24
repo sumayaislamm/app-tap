@@ -4,33 +4,45 @@ import data from "../../../public/data.json";
 import { getInstalled, saveInstalled, removeInstalled } from "../../utils/localStorage";
 import { FaDownload, FaStar, FaUsers } from "react-icons/fa";
 import ReviewChart from "../../components/ReviewChart/ReviewChart";
+import toast from "react-hot-toast";
+import Loading from "../../components/Loading/Loading";
 
 const AppDetails = () => {
   const { id } = useParams();
   const app = data.find((a) => a.id == id);
+  const [loading, setLoading] = useState(true);
 
   const [installed, setInstalled] = useState(false);
 
-  // check if app is installed on mount
+
   useEffect(() => {
     const apps = getInstalled();
     const exists = apps.find((i) => i.id == id);
     setInstalled(!!exists);
+      setLoading(false);
   }, [id]);
 
-  const handleInstallToggle = () => {
-    if (installed) {
-      // uninstall
-      removeInstalled(app.id);
-      setInstalled(false);
-    } else {
-      // install
+  const handleInstall = () => {
+    if (!installed) {
       const apps = getInstalled();
       apps.push(app);
       saveInstalled(apps);
       setInstalled(true);
+      toast.success("App Installed Successfully");
     }
   };
+
+  const handleUninstall = () => {
+    removeInstalled(app.id);
+    setInstalled(false);
+    toast.error("App Uninstalled Successfully");
+  };
+  if (loading) {
+    return (
+      <Loading></Loading>
+    );
+  }
+
 
   if (!app) return <h1>Not found</h1>;
 
@@ -74,12 +86,28 @@ const AppDetails = () => {
           </div>
 
           <div>
-            <button
-              onClick={handleInstallToggle}
-              className={`btn mt-3 text-white ${installed ? "btn-error" : "btn-success"}`}
-            >
-              {installed ? "Uninstall" : `Install Now (${app.size} MB)`}
-            </button>
+           
+            <div className="flex gap-3 mt-3">
+
+              <button
+                onClick={handleInstall}
+                disabled={installed}
+                className={`btn text-white ${installed ? "btn-disabled" : "btn-success"
+                  }`}
+              >
+                {installed ? "Installed" : `Install Now (${app.size} MB)`}
+              </button>
+
+              {installed && (
+                <button
+                  onClick={handleUninstall}
+                  className="btn btn-error text-white"
+                >
+                  Uninstall
+                </button>
+              )}
+
+            </div>
           </div>
         </div>
       </div>
