@@ -1,16 +1,151 @@
-# React + Vite
+# 📱 AppTap – App Store Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Link
 
-Currently, two official plugins are available:
+https://your-live-link-here.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 GitHub Repository
 
-## React Compiler
+https://github.com/your-username/your-repo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📖 Description
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+AppTap is a responsive App Store web application built with React.
+Users can explore apps, view details, install apps, and manage installed apps using localStorage.
+The project follows all the requirements including routing, search, sorting, chart visualization, responsive design, and deployment.
+
+---
+
+## 🚀 Features
+
+### 🏠 Home Page
+
+* Center aligned banner with heading, text, and buttons
+* Redirect buttons for App Store and Play Store
+* States section with three cards
+* Top apps section with 8 apps
+* Show All button to view all apps
+
+### 📱 All Apps Page
+
+* Live search (case-insensitive)
+* Total apps counter
+* Responsive grid layout
+* App cards with image, title, downloads, rating
+* Navigate to App Details page
+* Not found message when search fails
+
+### 📊 App Details Page
+
+* App image on left, details on right
+* Install button with disable state
+* Success toast after install
+* Review chart using Recharts
+* Description section
+* Not found message if app not found
+
+### 💾 LocalStorage Features
+
+* Install app → saved to localStorage
+* Installed button disabled if already installed
+* My Installation page shows installed apps
+* Uninstall button removes from UI & localStorage
+* Toast message on uninstall
+* Sort by downloads (High → Low / Low → High)
+
+### ⚙️ Extra Features
+
+* Loading animation during navigation
+* Custom error page
+* Responsive for all devices
+* Active route indication
+* Custom footer
+* Navbar with logo and GitHub button
+
+---
+
+## 🧱 Layout
+
+* Header with logo & navigation
+* Footer with custom design
+* JSON data with 12+ apps
+* Routing with React Router
+
+---
+
+## 📊 Chart Library
+
+* Recharts used for review chart
+* Fully responsive chart
+
+---
+
+## 🛠 Technologies Used
+
+* React
+* React Router
+* Tailwind CSS
+* DaisyUI
+* Recharts
+* React Icons
+* React Hot Toast
+* LocalStorage
+* Vite
+
+---
+
+## 📦 Data Structure
+
+Each app contains:
+
+```
+{
+  image,
+  title,
+  companyName,
+  id,
+  description,
+  size,
+  reviews,
+  ratingAvg,
+  downloads,
+  ratings
+}
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed on:
+
+* Netlify / Vercel / Cloudflare
+
+Reloading any route works without error.
+
+---
+
+## ✅ Requirements Completed
+
+✔ Responsive design
+✔ Routing
+✔ Search
+✔ Sorting
+✔ LocalStorage
+✔ Chart
+✔ Toast
+✔ Loading
+✔ Error page
+✔ Installation page
+✔ Deployment
+✔ Minimum commits done
+✔ README added
+
+---
+
+## 👨‍💻 Author
+
+Sumaya Islam
+GitHub: https://github.com/sumayaislamm
