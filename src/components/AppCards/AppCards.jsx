@@ -7,7 +7,7 @@ const AppCard = ({ app }) => {
         <Link to={`/app/${app.id}`}>
             <div
                 key={app.id}
-                className='bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300'
+                className='bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 w-65 h-65'
             >
                 <img
                     src={app.image}

@@ -29,6 +29,14 @@ const InstalledApps = () => {
     sortedApps.sort((a, b) => a.size - b.size);
   }
 
+  if (sortType === "download-high") {
+    sortedApps.sort((a, b) => b.downloads - a.downloads);
+  }
+
+  if (sortType === "download-low") {
+    sortedApps.sort((a, b) => a.downloads - b.downloads);
+  }
+
   return (
     <div className="p-5 max-w-6xl mx-auto">
       <div className="flex flex-col text-center justify-center mb-5">
@@ -41,12 +49,14 @@ const InstalledApps = () => {
         <h2 className="text-2xl">Total Apps {apps.length}</h2>
         <select
           onChange={(e) => setSortType(e.target.value)}
-          defaultValue="Sort by size"
+          defaultValue="Sort"
           className="select  sm:w-52 bg-primary border-none text-white"
         >
-          <option className=" text-black" disabled={true}>Sort by size</option>
+          <option className=" text-black" disabled={true}>Sort</option>
           <option value="size-high">Size High → Low</option>
           <option value="size-low">Size Low → High</option>
+          <option value="download-high">Download High → Low</option>
+          <option value="download-low">Download Low → High</option>
         </select>
       </div>
       <div>
@@ -63,9 +73,9 @@ const InstalledApps = () => {
                 <img className="w-[60px] h-[60px] rounded-box " src={app.image} />
               </div>
 
-              <div>
+              <div className="flex flex-col justify-center">
                 <div>{app.title}: {app.description}</div>
-                <div className="flex flex-col sm:flex-row justify-between gap-3 sm:gap-5 lg:w-50 w-full">
+                <div className="flex flex-row justify-between gap-3 sm:gap-5  w-50">
                   <p className='text-gray-500 text-sm flex items-center gap-1'><FaDownload className="text-blue-500" /> {app.downloads}</p>
                   <p className='text-yellow-500 font-medium flex items-center gap-1'><AiFillStar className="text-yellow-400" />  {app.ratingAvg} </p>
                   <p className='text-primary font-medium flex items-center gap-1'>{app.size}MB </p>

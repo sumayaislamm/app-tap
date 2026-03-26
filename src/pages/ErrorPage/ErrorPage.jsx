@@ -1,10 +1,38 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import { FaExclamationTriangle } from "react-icons/fa";
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1>$404 - Page Not Found</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi temporibus, numquam sint exercitationem deserunt culpa esse similique quam porro suscipit a explicabo, eveniet vero totam. Quas similique sequi assumenda debitis quaerat dolor illo adipisci temporibus itaque iure quo culpa ipsam sed dolorem, modi eum minima eos numquam placeat. Quibusdam, perferendis quaerat voluptatibus eius rem mollitia amet illum odio eveniet distinctio. Consequuntur consectetur saepe, assumenda fugiat impedit optio at nulla deserunt eos animi neque aut eum molestiae cupiditate beatae quod reprehenderit magnam est porro mollitia asperiores necessitatibus ipsa, sapiente sequi. Alias illo corporis unde quam, ipsam ex natus labore possimus est.</p>
+        <div
+            className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-gray-800 px-5"
+        >
+
+            <div
+                className="relative w-100 h-100 flex items-center justify-center"
+                style={{
+                    backgroundImage: "url('/404.png')",
+                    backgroundSize: "contain",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                }}
+            >
+
+                <img
+                    src="/405.png"
+                    alt="foreground"
+                    className="w-80 h-50 mt-20 ml-5"
+                />
+            </div>
+            <h2 className="text-3xl font-semibold mb-2">Opppss! Page Not Found</h2>
+
+            <p className="text-gray-600 mb-6 text-center">
+                The page you are looking for does not exist.
+            </p>
+
+            <Link to="/" className="btn btn-primary">
+                Go Back Home
+            </Link>
         </div>
     );
 };

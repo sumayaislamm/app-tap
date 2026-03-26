@@ -13,13 +13,13 @@ const HomeApps = () => {
                     <p className='mx-10 text-lg text-gray-500 text-center'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
 
-                <div className='max-w-6xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 cursor-pointer'>
+                <div className='max-w-6xl mx-5 lg:mx-1 md:mx-1 mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 cursor-pointer '>
                     {data.slice(0, 8).map((app) => (
 
                         <Link key={app.id} to={`/app/${app.id}`}>
                             <div
                                 key={app.id}
-                                className='bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300'
+                                className='bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 w-65 h-65'
                             >
                                  <img
                                     src={app.image}

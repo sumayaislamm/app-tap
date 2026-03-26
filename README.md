@@ -1,12 +1,12 @@
 # 📱 AppTap – App Store Web Application
 
 ## 🔗 Live Link
+https://app-tap-tan.vercel.app/
 
-https://your-live-link-here.com
 
 ## 🔗 GitHub Repository
 
-https://github.com/your-username/your-repo
+https://github.com/sumayaislamm/app-tap
 
 ---
 
@@ -121,9 +121,8 @@ Each app contains:
 
 This project is deployed on:
 
-* Netlify / Vercel / Cloudflare
+* Vercel
 
-Reloading any route works without error.
 
 ---
 
