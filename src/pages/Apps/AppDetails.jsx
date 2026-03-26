@@ -47,10 +47,10 @@ const AppDetails = () => {
   if (!app) return <h1>Not found</h1>;
 
   return (
-    <div className="mx-10">
-      <div className="flex gap-5 mt-10">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="flex flex-col md:flex-row gap-5 mt-10">
         <div className="flex gap-5">
-          <img src={app.image} className="w-40" />
+          <img src={app.image} className="w-full max-w-50 md:max-w-55 rounded-lg" />
         </div>
         <div className="flex flex-col">
           <div>
@@ -61,7 +61,7 @@ const AppDetails = () => {
             <hr className="my-4 w-full border-gray-300" />
           </div>
 
-          <div className="flex items-center gap-4 text-gray-600">
+          <div className="flex flex-col sm:flex-row gap-4 text-gray-600 mt-3">
             <div className="items-center gap-1">
               <FaDownload className="text-success text-xl" />
               <p>
@@ -87,7 +87,7 @@ const AppDetails = () => {
 
           <div>
            
-            <div className="flex gap-3 mt-3">
+            <div className="flex flex-col sm:flex-row gap-3 mt-3">
 
               <button
                 onClick={handleInstall}

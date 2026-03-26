@@ -57,7 +57,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <NavLink to="/" className="text-xl">
-                   <img className="h-17 w-20 "  src="/public/apptapp.png" alt="" />
+                   <img className="h-17 w-20 "  src="/apptapp.png" alt="" />
                 </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">

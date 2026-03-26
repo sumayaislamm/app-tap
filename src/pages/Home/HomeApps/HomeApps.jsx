@@ -16,12 +16,12 @@ const HomeApps = () => {
                 <div className='max-w-6xl mx-auto mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 cursor-pointer'>
                     {data.slice(0, 8).map((app) => (
 
-                        <Link to={`/app/${app.id}`}>
+                        <Link key={app.id} to={`/app/${app.id}`}>
                             <div
                                 key={app.id}
                                 className='bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300'
                             >
-                                <img
+                                 <img
                                     src={app.image}
                                     alt={app.title}
                                     className='w-full h-40 object-cover'
@@ -42,7 +42,7 @@ const HomeApps = () => {
 
 
                 <div className='mx-auto items-center w-fit text-center mt-10'>
-                    <a href="/apps" className='btn btn-primary '>Show All</a>
+                    <Link to="/apps" className='btn btn-primary '>Show All</Link>
                 </div>
             </div>
 
